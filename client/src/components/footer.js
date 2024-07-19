@@ -4,11 +4,9 @@ import {FaGithub, FaLinkedin,} from "react-icons/fa"
 
 export default function Footer(){
 return(
-  <footer className='content-has-text-centered'>
-    <div>
-    <footer> 
-          <div className="content-has-text-centered">
-    <p>
+  
+     <div className="container : items-center">
+    <p className="mx-auto w-full align-center">
       <a href="" target="blank">
         <FaLinkedin/>
       </a>
@@ -18,8 +16,6 @@ return(
     </p>
    
   </div>
-    </footer>
-    </div>
-  </footer>
+    
 )
 }

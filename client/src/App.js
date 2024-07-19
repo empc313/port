@@ -1,20 +1,20 @@
 import React from 'react';
 
-import Header from './components/header';
-import Footer from './components/footer';
 import Navbar from './components/navbar'
+import Portfolio from './components/pages/Portfolio'
+import Home from './components/pages/Home'
+import Footer from './components/footer';
+
 
 
 export default function App() {
-    return( 
-       <>
-<Header/> 
-<section>
-<Navbar></Navbar>
-</section>
-<Footer/>
-       </>
-    
+return(
+   <div>
+    <Navbar/>
+     <Home/>
+     <Portfolio/>
+    <Footer/>
+   </div>
     )
 }
 

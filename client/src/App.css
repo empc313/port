@@ -11,7 +11,7 @@ nav {
     border-bottom: 1px solid white;
 }
 
-.deactive {
-    color: #7e9199;
-    border-bottom: none;
+.content-has-text-centered {
+    text-align: center;
+    align-items: center;
 }

@@ -15,13 +15,11 @@ return(
       <a href="https://github.com/empc313" target="blank">
         <FaGithub/>
         </a>
-
     </p>
    
   </div>
     </footer>
     </div>
- 
   </footer>
 )
 }

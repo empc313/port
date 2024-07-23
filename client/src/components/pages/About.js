@@ -2,23 +2,21 @@ import React from 'react';
 
 export default function About() {
     return (
-		<section className=" text-[#7e9342] container mx-auto h-auto min-[426px]:my-36">
+		<body className=" text-[#7e9342] container mx-auto h-auto min-[426px]:my-36">
 			<div>
-				<h1 className="flex justify-center">About Me</h1>
+				<h1 className="flex justify-center text-2xl">About Me</h1>
 			</div>
+<br/>
 			<div>
-			</div>
-			<div>
-				<p>
-                I am a person who loves to learn, and I will learn about anything and everything I can.
-            There is so much knowledge out in the world and I am fascinated by all of it. I have a degree in biomedical
-            science from Colorado State University.
+				<p className='text-xl'>
+                I am a person who loves to learn. I am continuously learning about many different things in the world
+				around me, there is so much knowledge from both the past and present; I am fascinated by all of it.
 			<p/>
-			I have work experience in medical offices, and have worked with the technology and interfaces that they use.
-            This inspired an intrest in improving how the current systems run. This lead me to an intrest in coding
-            and am currently persuing a coding bootcamp certificate course through the University of Denver.
-				</p>
+			<br/>
+			Embroidery and oil painting are something I am extremley fond of. Figuring out which colors to use and
+			creating something is the best part.
+			</p>
 			</div>
-		</section>
+		</body>
 	);
 }

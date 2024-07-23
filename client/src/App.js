@@ -17,9 +17,11 @@ export default function App() {
 
 
 return(
-   <div className='app'>
+   <div className='bg-[#F6EFE7] max-[426px]:px-4 max-[787px]:px-4 text-white px-44 min-h-screen pb-10'>
+    <div>
     <Navbar />
     <Footer/>
+    </div>
 </div>
     )
 }

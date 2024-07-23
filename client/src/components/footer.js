@@ -4,15 +4,16 @@ import {FaGithub, FaLinkedin,} from "react-icons/fa"
 
 export default function Footer(){
 return(
-  
-     <div className="container : items-center">
-    <p className="mx-auto w-full align-center">
-      <a href="" target="blank">
+     <div className="absolute inset-x-0 bottom-0 h-16">
+    <p className='flex justify-center'>
+        <div className='flex justify-between'>
+      <a className='text-[#7e9342]' href="https://www.linkedin.com/in/emma-cunningham-951b12152/?trk=opento_sprofile_details" target="blank">
         <FaLinkedin/>
       </a>
-      <a href="https://github.com/empc313" target="blank">
+      <a className='text-[#7e9342]' href="https://github.com/empc313" target="blank">
         <FaGithub/>
         </a>
+        </div>
     </p>
    
   </div>

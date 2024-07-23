@@ -3,15 +3,5 @@
 @import 'tailwindcss/utilities';
 
 body {
-    font-family: Agustina;
-}
-
-.nav.bar-items {
-    color: white;
-    border-bottom: 1px solid white;
-}
-
-.content-has-text-centered {
-    text-align: center;
-    align-items: center;
+    font-family: Agustina;    
 }

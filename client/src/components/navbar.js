@@ -37,7 +37,7 @@ export default function Navbar({sendDataToParent}) {
             <a href="#projects" className={`text-[#7e9342] hover:text-black pb-1 hover:border-b text-lg transition-all ${active === 2 ? "active" : "deactive"}`} onClick={() => handleLinkClick(2)}>
               Portfolio
             </a>
-            <a href="#contact" className={`text-[#7e9324] hover:text-black pb-1 hover:border-b text-lg transition-all ${active === 3 ? "active" : "deactive"}`} onClick={() => handleLinkClick(3)}>
+            <a href="#contact" className={`text-[#7e9342] hover:text-green-500 pb-1 hover:border-b text-lg transition-all ${active === 3 ? "active" : "deactive"}`} onClick={() => handleLinkClick(3)}>
               Contact Me
             </a>
         </nav>  

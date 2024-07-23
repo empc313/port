@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function About() {
     return (
-		<section className="container mx-auto h-auto min-[426px]:my-36" id="about">
+		<section className=" text-[#7e9342] container mx-auto h-auto min-[426px]:my-36">
 			<div>
-				<h1 className="page-header">About Me</h1>
+				<h1 className="flex justify-center">About Me</h1>
 			</div>
-			<div class="content has-text-centered">
+			<div>
 			</div>
 			<div>
 				<p>

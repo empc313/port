@@ -17,13 +17,10 @@ export default function Navbar() {
             <Link  to="/about" className='text-[#7e9342] hover:text-black pb-1 hover:border-b text-lg transition-all'>
               About
             </Link>
-            <Link to="/skills" className='text-[#7e9342] hover:text-black pb-1 hover:border-b text-lg transition-all'>
-              Skills
-            </Link>
             <Link to="/portfolio" className='text-[#7e9342] hover:text-black pb-1 hover:border-b text-lg transition-all'>
               Portfolio
             </Link>
-            <Link href="/contact" className='text-[#7e9342] hover:text-green-500 pb-1 hover:border-b text-lg transition-all'>
+            <Link to="/contact" className='text-[#7e9342] hover:text-green-500 pb-1 hover:border-b text-lg transition-all'>
               Contact Me
             </Link>
         </nav>  

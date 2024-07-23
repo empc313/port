@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Link } from 'react-router-dom';
 
 
@@ -20,7 +20,7 @@ export default function Navbar() {
             <Link to="/skills" className='text-[#7e9342] hover:text-black pb-1 hover:border-b text-lg transition-all'>
               Skills
             </Link>
-            <Link to="/project" className='text-[#7e9342] hover:text-black pb-1 hover:border-b text-lg transition-all'>
+            <Link to="/portfolio" className='text-[#7e9342] hover:text-black pb-1 hover:border-b text-lg transition-all'>
               Portfolio
             </Link>
             <Link href="/contact" className='text-[#7e9342] hover:text-green-500 pb-1 hover:border-b text-lg transition-all'>

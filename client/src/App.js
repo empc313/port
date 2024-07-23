@@ -1,4 +1,5 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import "../src/App.css";
 
 
@@ -17,12 +18,23 @@ export default function App() {
 
 
 return(
-   <div className='bg-[#F6EFE7] max-[426px]:px-4 max-[787px]:px-4 text-white px-44 min-h-screen pb-10'>
-    <div>
-    <Navbar />
+    <body className='bg-[#F6EFE7] max-[426px]:px-4 max-[787px]:px-4 px-44 min-h-screen pb-10'>
+   <Router>
+    <Navbar/>
+    <main>
+        <Routes>
+            <Route path='/' element={<Home />}/>
+            <Route path='/about' element={<About/>}/>
+        </Routes>
+    </main>
+   </Router>
+   <section>
+
+   </section>
+  <footer>
     <Footer/>
-    </div>
-</div>
+  </footer>
+    </body>
     )
 }
 

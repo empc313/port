@@ -1,45 +1,31 @@
 import React, {useState} from 'react';
+import {Link } from 'react-router-dom';
 
 
-
-export default function Navbar({sendDataToParent}) {
-    const [active, setActive] = useState(0);
-    const [menuOpen, setMenuOpen] = useState(false);
-    
-    const handleLinkClick = (index) => {
-      setActive(index);
-      setMenuOpen(false);
-      sendDataToParent(false);
-    };
-  
-    const handleMenu = () => {
-      const newMenuState = !menuOpen;
-      setMenuOpen(newMenuState);
-      sendDataToParent(newMenuState);
-    };
-  
+export default function Navbar() {
    return (
     <>
     <div className="container mx-auto flex justify-between items-center pt-8 mb-12 max-[426px]:mb-6 max-[426px]:block">
         <div className="title max-[426px]:flex max-[426px]:justify-between max-[426px]:items-center">     
             <a href="/">
-            <h1 className={`text-3xl max-[426px]:text-base italic text-[#7e9342] hover:text-blue signature`} onClick={() => handleLinkClick(0)}>Emma Cunningham</h1>
+            <h1 className={`text-3xl max-[426px]:text-base italic text-[#7e9342] hover:text-blue signature`}>Emma Cunningham</h1>
             </a>     
-          <button className="text-3xl hidden max-[426px]:block" onClick={() => handleMenu()}></button>
+          <div className="text-3xl hidden max-[426px]:block"></div>
         </div>
-        <nav className={`flex gap-10 max-[426px]:flex-col max-[426px]:mt-10 ${menuOpen ? "max-[426px]:flex" : "max-[426px]:hidden"} `}>
-            <a href="#about" className={`text-[#7e9342] hover:text-black pb-1 hover:border-b text-lg transition-all ${active === 0 ? "active" : "deactive"}`} onClick={() => handleLinkClick(0)}>
+        
+        <nav className={`flex gap-10 max-[426px]:flex-col max-[426px]:mt-10`}>
+            <Link  to="/about" className='text-[#7e9342] hover:text-black pb-1 hover:border-b text-lg transition-all'>
               About
-            </a>
-            <a href="#skills" className={`text-[#7e9342] hover:text-black pb-1 hover:border-b text-lg transition-all ${active === 1 ? "active" : "deactive"}`} onClick={() => handleLinkClick(1)}>
+            </Link>
+            <Link to="/skills" className='text-[#7e9342] hover:text-black pb-1 hover:border-b text-lg transition-all'>
               Skills
-            </a>
-            <a href="#projects" className={`text-[#7e9342] hover:text-black pb-1 hover:border-b text-lg transition-all ${active === 2 ? "active" : "deactive"}`} onClick={() => handleLinkClick(2)}>
+            </Link>
+            <Link to="/project" className='text-[#7e9342] hover:text-black pb-1 hover:border-b text-lg transition-all'>
               Portfolio
-            </a>
-            <a href="#contact" className={`text-[#7e9342] hover:text-green-500 pb-1 hover:border-b text-lg transition-all ${active === 3 ? "active" : "deactive"}`} onClick={() => handleLinkClick(3)}>
+            </Link>
+            <Link href="/contact" className='text-[#7e9342] hover:text-green-500 pb-1 hover:border-b text-lg transition-all'>
               Contact Me
-            </a>
+            </Link>
         </nav>  
         
     </div>

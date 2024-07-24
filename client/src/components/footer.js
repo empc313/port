@@ -16,6 +16,9 @@ return(
         </a>
         </div>
     </p>
+    <div>
+    <p className="flex justify-center text-xs font-thin">made by emma cunningham♡</p>
+    </div>
    
   </div>
     

@@ -18,7 +18,7 @@ export default function App() {
 
 
 return(
-    <body className='bg-[#F6EFE7] max-[426px]:px-4 max-[787px]:px-4 px-44 min-h-screen pb-10'>
+    <body className='bg-[#F9F9FB] max-[426px]:px-4 max-[787px]:px-4 px-44 min-h-screen pb-10'>
    <Router>
     <Navbar/>
     <main>

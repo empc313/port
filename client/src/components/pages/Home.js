@@ -9,7 +9,7 @@ export default function Home(){
           <img className='rounded-full h-72 w-78' src={require('../assets/TEST.jpeg')}/>
           </div>
 
-        <div className='text-[#7e9342]'>
+        <div className='text-[#778A35]'>
           <h1>Welcome to my website!</h1>
         </div>
 

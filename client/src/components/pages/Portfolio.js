@@ -7,20 +7,21 @@ export default function Portfolio(){
       <h1 className='flex justify-center text-xl'>Portfolio</h1>
       <section className=' grid grid-cols-3 gap-6'>
 
+      <div className=' min-[500px] rounded overflow-hidden shadow-md bg-white shadow-2xl hover:shadow-[#c0dfd3] transition-all border border-whitebg'>
+        <a src='URL' href=''>MERN Stack</a>
+        </div>  
+          
       <div className=" min-[500px] rounded overflow-hidden shadow-md bg-white shadow-2xl hover:shadow-[#c0dfd3] transition-all border border-whitebg">
-      <a src="URL" href="https://github.com/empc313/weather-page">Weather App</a>
+      <a src="URL" href="https://github.com/empc313/weather-page">Weather Application</a>
       </div>   
 
-      <div className=' min-[500px] rounded overflow-hidden shadow-md bg-white shadow-2xl hover:shadow-[#c0dfd3] transition-all border border-whitebg'>
-        <a src='URL' href=''> Website 2</a>
-        </div>    
 
       <div className=" min-[500px] rounded overflow-hidden shadow-md bg-white shadow-2xl hover:shadow-[#c0dfd3] transition-all border border-whitebg">
         <a  src="URL" href ="https://github.com/reverofsuturb/CloudMinnow">Ecommerce Website</a>
         </div>
 
         <div className=' min-[500px] rounded overflow-hidden shadow-md bg-white shadow-2xl hover:shadow-[#c0dfd3] transition-all border border-whitebg'>
-        <a src='URL' href=''> Website 3</a>
+        <a src='URL' href=''>Password Generator</a>
         </div>  
 
         <div className=' min-[500px] rounded overflow-hidden shadow-md bg-white shadow-2xl hover:shadow-[#c0dfd3] transition-all border border-whitebg'>

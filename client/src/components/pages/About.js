@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
     return (
-		<body className=" text-[#7e9342] container mx-auto h-auto min-[426px]:my-36">
+		<body className=" text-[#778A35] container mx-auto h-auto min-[426px]:my-36">
 			<div>
 				<h1 className="flex justify-center text-2xl">About Me</h1>
 			</div>

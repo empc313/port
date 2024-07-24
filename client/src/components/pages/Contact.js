@@ -63,7 +63,7 @@ export default function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button className='hover:bg-[#F9F9FB] text-[#778A35] font-semibold py-2 px-4 border border-[#31352E] rounded shadow' data-testid="button" type="submit">Send Message!</button>
+        <button className='hover:bg-[#F9F9FB] text-[#315425] font-semibold py-2 px-4 border border-[#31352E] rounded shadow' data-testid="button" type="submit">Send Message!</button>
       </form>
     </body>
 

@@ -2,10 +2,11 @@ import React from 'react';
 
 export default function About() {
     return (
-		<body className=" text-[#778A35] container mx-auto h-auto min-[426px]:my-36">
-			<div>
-				<h1 className="flex justify-center text-2xl">About Me</h1>
+		<section className="text-[#315425] container mx-auto h-auto min-[426px]:my-24">
+			<div className='flex justify-center'>
+				<h1 className="rounded-br border-[#315425] border-b-4 drop-shadow-md flex justify-center text-2xl w-48">About Me</h1>
 			</div>
+			
 <br/>
 			<div>
 				<p className='text-xl'>
@@ -17,6 +18,6 @@ export default function About() {
 			creating something is the best part.
 			</p>
 			</div>
-		</body>
+		</section>
 	);
 }

@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Home(){
     return (
-        <body className='flex gap-x-56 justify-start flex-column'>
+        <section className='flex gap-x-56 justify-start flex-column'>
 
           <div className='flex justify-center size-1/2'>
           <img className='rounded-full h-72 w-78' src={require('../assets/TEST.jpeg')}/>
@@ -14,7 +14,7 @@ export default function Home(){
         </div>
 
 
-        </body>
+        </section>
       
       );
      

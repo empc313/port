@@ -5,7 +5,7 @@ import {Link } from 'react-router-dom';
 export default function Navbar() {
    return (
     <>
-    <div className="container mx-auto flex justify-between items-center pt-8 mb-12 max-[426px]:mb-6 max-[426px]:block">
+    <div className="flex justify-between items-center pt-8 mb-12 max-[426px]:mb-6 max-[426px]:block">
         <div className="title max-[426px]:flex max-[426px]:justify-between max-[426px]:items-center">     
             <a href="/">
             <h1 className={`text-3xl max-[426px]:text-base italic text-[#778A35] hover:text-[#31352E] signature`}>Emma Cunningham</h1>

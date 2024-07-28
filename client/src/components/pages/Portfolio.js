@@ -11,7 +11,7 @@ export default function Portfolio(){
 
       <div className=' grid grid-cols-3 gap-6 h-36 text-center'>
       <div className=' min-[500px] rounded overflow-hidden shadow-md bg-white shadow-2xl hover:shadow-[#D1E2C4] transition-all border border-whitebg'>
-        <a src='URL' href=''>MERN Stack</a>
+        <a src='URL' href='https://github.com/JamesGeneser/Bird-Nerd'>MERN Stack</a>
         </div>  
 
       <div className="min-[500px] rounded overflow-hidden shadow-md bg-white shadow-2xl hover:shadow-[#D1E2C4] transition-all border border-whitebg">
